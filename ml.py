@@ -11,6 +11,7 @@ import matplotlib.pyplot as plot
 
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('omw-1.4')
 nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 import glob
