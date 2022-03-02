@@ -3,12 +3,10 @@ import numpy as np
 import nltk
 import sklearn
 import operator
-import requests
 from sklearn import linear_model
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
-import seaborn
 import matplotlib.pyplot as plot
 
 nltk.download('stopwords')
@@ -18,7 +16,6 @@ nltk.download('averaged_perceptron_tagger')
 import glob
 from sklearn.feature_selection import chi2
 from sklearn.feature_selection import SelectKBest
-from wordcloud import WordCloud
 from gensim import utils
 import gensim.parsing.preprocessing as gsp
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
