@@ -12,6 +12,6 @@ pip install matplotlib
 
 
 
-And then use  `python ml.py instruction` in this folder (don't remember download the dataset)
+And then use  `python coursework1.py instruction` in this folder (don't forget download the dataset)
 
 The training and predict results will be printed
